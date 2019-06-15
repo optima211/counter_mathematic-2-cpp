@@ -33,14 +33,14 @@ int main(int argc, char* argv[])
         k=k+1;
 
     }
-    setlocale(LC_ALL, "Russian");
+    //setlocale(LC_ALL, "Russian");
 
     for (int i = 0; i < n; i++)
     {
-        cout <<"Х-"<<i+1<<"= " <<X[i] << endl;
+        cout <<"X-"<<i+1<<"= " <<X[i] << endl;
 
     }
-    cout <<"Количество итераций  ="<< k << endl;
+    cout <<"Count iterate  ="<< k << endl;
 
     system("pause");
     return 0;
