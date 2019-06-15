@@ -32,7 +32,6 @@ int main(int argc, char *argv[]) {
         k = k + 1;
 
     }
-    //setlocale(LC_ALL, "Russian");
 
     for (int i = 0; i < n; i++) {
         cout << "X-" << i + 1 << "= " << X[i] << endl;
